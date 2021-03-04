@@ -19,7 +19,7 @@ executable (
 
 # Translate and install our .desktop file
 i18n.merge_file(
-    input: join_paths('data', 'hello-packaging.desktop.in'),
+    input: join_paths('data', 'gtk-grid.desktop.in'),
     output: meson.project_name() + '.desktop',
     po_dir: join_paths(meson.source_root(), 'po'),
     type: 'desktop',
@@ -29,7 +29,7 @@ i18n.merge_file(
 
 # Translate and install our .appdata file
 i18n.merge_file(
-    input: join_paths('data', 'hello-packaging.appdata.xml.in'),
+    input: join_paths('data', 'gtk-grid.appdata.xml.in'),
     output: meson.project_name() + '.appdata.xml',
     po_dir: join_paths(meson.source_root(), 'po'),
     install: true,
