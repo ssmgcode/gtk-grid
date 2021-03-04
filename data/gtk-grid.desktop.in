@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Gtk Grid
+GenericName=Gtk Grid
+Comment=First time using Gtk Grid
+Categories=Utility;Education;
+Exec=com.github.ssmgcode.gtk-grid
+Icon=application-default-icon
+Terminal=false
+Type=application
+Keywords=Gtk;Grid
