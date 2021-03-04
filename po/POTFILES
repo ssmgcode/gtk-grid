@@ -1,0 +1,3 @@
+src/Application.vala
+data/gtk-grid.desktop.in
+data/gtk-grid.appdata.xml.in
